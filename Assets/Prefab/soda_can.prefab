@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 212631547243048338}
   - component: {fileID: 50710316457977748}
   - component: {fileID: 61692986352385924}
+  - component: {fileID: 114624759002283462}
   m_Layer: 0
   m_Name: soda_can
-  m_TagString: Untagged
+  m_TagString: soda_can
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1479486289507986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.723132, y: 117.67255, z: 0}
+  m_LocalPosition: {x: -10.723132, y: 8797.673, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -56,7 +57,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 9.8
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -87,6 +88,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0742664, y: 2.20749}
   m_EdgeRadius: 0
+--- !u!114 &114624759002283462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479486289507986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0725426cf4ee24994f86d8ca1f0aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 1200
 --- !u!212 &212631547243048338
 SpriteRenderer:
   m_ObjectHideFlags: 1

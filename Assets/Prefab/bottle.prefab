@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 212690356415556310}
   - component: {fileID: 50335796699687630}
   - component: {fileID: 61310945571434672}
+  - component: {fileID: 114433608160555264}
   m_Layer: 0
   m_Name: bottle
-  m_TagString: Untagged
+  m_TagString: bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,8 +36,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1922115825338766}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.241327, y: 36.27509, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.09516366, w: 0.99546164}
+  m_LocalPosition: {x: -9.87488, y: 4250.6426, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -56,7 +57,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 9.8
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -87,6 +88,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9526634, y: 2.857584}
   m_EdgeRadius: 0
+--- !u!114 &114433608160555264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922115825338766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d0725426cf4ee24994f86d8ca1f0aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 1500
 --- !u!212 &212690356415556310
 SpriteRenderer:
   m_ObjectHideFlags: 1
